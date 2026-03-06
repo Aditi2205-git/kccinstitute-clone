@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KCC Institute of Technology & Management</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header / Navigation -->
+  <header class="main-header">
+    <div class="container header-container">
+      <div class="logo">
+        <a href="#"><img src="img/logo.png" alt="KCCITM Logo"></a>
+      </div>
+      <nav class="nav-bar" id="nav-bar">
+        <ul>
+          <li><a href="#programs">Programs</a></li>
+          <li><a href="#life">Life@KCC</a></li>
+          <li><a href="#placements">Placements</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="mobile-menu" id="mobile-menu">&#9776;</div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>WHERE TOMORROW STARTS TODAY</h1>
+      <p>Preparing future professionals by enhancing workforce readiness</p>
+      <a href="#programs" class="btn-primary">Explore Programs</a>
+    </div>
+  </section>
+
+  <!-- Programs Section -->
+  <section id="programs" class="program-section">
+    <div class="container">
+      <h2>Undergraduate & Postgraduate Programs</h2>
+      <div class="program-cards">
+        <div class="card">
+          <h3>B.Tech Programs</h3>
+          <ul>
+            <li>Computer Science & Engineering</li>
+            <li>Mechanical Engineering</li>
+            <li>Electrical Engineering</li>
+            <li>Civil Engineering</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Management & Law Programs</h3>
+          <ul>
+            <li>BBA</li>
+            <li>BCA</li>
+            <li>BA (JMC)</li>
+            <li>BA LLB (H)</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Postgraduate Programs</h3>
+          <ul>
+            <li>MBA Plus</li>
+            <li>M.Tech Programs</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Life at KCC -->
+  <section id="life" class="life-section">
+    <div class="container">
+      <h2>Life at KCC</h2>
+      <div class="life-grid">
+        <div class="life-item">Industry Exposure</div>
+        <div class="life-item">Culture Diversity</div>
+        <div class="life-item">Clubs & Societies</div>
+        <div class="life-item">Career Impact</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Placements -->
+  <section id="placements" class="placement-section">
+    <div class="container">
+      <h2>Placements & Achievements</h2>
+      <div class="placement-stats">
+        <div class="stat">
+          <h3>250+</h3>
+          <p>Companies Visited</p>
+        </div>
+        <div class="stat">
+          <h3>14.2 LPA</h3>
+          <p>Highest National Package</p>
+        </div>
+        <div class="stat">
+          <h3>31 LPA</h3>
+          <p>Highest International Package</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact">
+    <div class="container footer-container">
+      <p>Contact: admissions@kccitm.edu.in</p>
+      <p>Address: Knowledge Park III, Greater Noida, Uttar Pradesh</p>
+      <p>&copy; 2026 KCC Institute of Technology & Management</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
